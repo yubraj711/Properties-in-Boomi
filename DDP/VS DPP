@@ -1,0 +1,34 @@
+Definition:
+Dynamic Process Property or DPP is a single instance name-value pair defined at the process level. 
+
+Dynamic Document Property or DDP is a temporary variable associated with the document. 
+
+i.e. If there are 100 documents in the process, then there will be 100 instances of DDP will create each associated with their respective documents. 
+
+Both DPP and DPP are case-sensitive, So Beware of typos while accessing. 
+
+
+
+Scope and accesibility:
+DPP is defined at the process level, while DDP is defined at the document level. 
+
+DDP set in one branch cannot be retrieved in the subsequent branch, while Once DPP defined can be accessible afterwards.
+
+You have to set the DDP before the branch Shape to access it in all the branch paths. 
+
+
+
+Data types:
+DPP and DDP are both stored as a string. 
+
+If you want to use numeric or any other date-type values, you need to change the data type before accessing it.
+
+
+
+Extension and Persistence:
+DPP can be extended and persisted, while DDP cannot. 
+
+
+
+
+
